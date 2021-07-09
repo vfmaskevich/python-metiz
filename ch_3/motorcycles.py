@@ -1,15 +1,6 @@
 # # # Изменение, добавление и удаление элементов
 
-# Удаление элементов из списка
-# Удаление элемента с использованием метода pop()
+# Извлечение элементов из произвольной позиции списка
 motorcycles = ['honda', 'yamaha', 'suzuki']
-print(motorcycles)
-
-popped_motorcycles = motorcycles.pop()
-print(motorcycles)
-print(popped_motorcycles)
-
-# Пример
-motorcycles = ['honda', 'yamaha', 'suzuki']
-last_owned = motorcycles.pop()
-print(f"Последний купленный мотоцикл: {last_owned.title()}.")
+first_owner = motorcycles.pop(0)
+print(f"Первым мотоциклом, которым я владел, был {first_owner.title()}")
