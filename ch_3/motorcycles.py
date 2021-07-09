@@ -1,6 +1,9 @@
 # # # Изменение, добавление и удаление элементов
 
-# Втавка элементов в список
+# Удаление элементов из списка
+# Удаление элемента с использованием команды del
 motorcycles = ['honda', 'yamaha', 'suzuki']
-motorcycles.insert(0, 'ducati')
+print(motorcycles)
+
+del motorcycles[0]
 print(motorcycles)
