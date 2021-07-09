@@ -1,6 +1,17 @@
 # # # Изменение, добавление и удаление элементов
 
-# Извлечение элементов из произвольной позиции списка
-motorcycles = ['honda', 'yamaha', 'suzuki']
-first_owner = motorcycles.pop(0)
-print(f"Первым мотоциклом, которым я владел, был {first_owner.title()}")
+# Удаление элементов по значению
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+print(motorcycles)
+
+motorcycles.remove('ducati')
+print(motorcycles)
+
+# Пример
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+print(motorcycles)
+
+too_expensive = 'ducati'
+motorcycles.remove(too_expensive)
+print(motorcycles)
+print(f"\n{too_expensive.title()} для меня слишком дорог.")
