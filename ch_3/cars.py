@@ -1,10 +1,6 @@
-# Временная сортировка списка функцией sorted()
+# Вывод списка в обратном порядке
 cars = ['bmw', 'audi', 'toyota', 'subaru']
-print("Вот исходный список:")
 print(cars)
 
-print("\nВот отсортированный список:")
-print(sorted(cars))
-
-print("\nВот снова исходный список:")
+cars.reverse()
 print(cars)
